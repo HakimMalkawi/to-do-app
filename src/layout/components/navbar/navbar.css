@@ -1,0 +1,6 @@
+.navbar_wrapper {
+    display: flex;
+    align-items: center;
+    height: 8rem;
+    padding-inline: 2rem;
+    background-color: var( --teal ); }

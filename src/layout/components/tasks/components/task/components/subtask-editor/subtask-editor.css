@@ -1,0 +1,39 @@
+.subtask-editor_wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: grid;
+    height: 100vh;
+    width: 100vw; }
+
+.subtask-editor_wrapper > * {
+    grid-row: 1;
+    grid-column: 1; }
+
+.subtask-editor_wrapper > div {
+    cursor: pointer;
+    z-index: 1;
+    background-color: var( --transparent ); }
+
+.subtask-editor_wrapper > form { 
+    z-index: 2; 
+    place-self: center;
+    display: grid;
+    row-gap: 2rem;
+    padding: 3rem 5rem;
+    border-radius: 2rem;
+    background-color: var( --teal ); }
+
+.subtask-editor_wrapper > form > input {
+    height: 4rem;
+    padding: 0 2rem;
+    border-radius: 1rem;
+    outline: none;
+    color: var( --primary );
+    background-color: var( --secondary ); }
+
+.subtask-editor_wrapper > form > button {
+    padding: 1rem 3rem;
+    border-radius: 1rem;
+    background-color: var( --primary );
+    color: var( --secondary ); }

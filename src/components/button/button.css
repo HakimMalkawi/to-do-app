@@ -1,0 +1,11 @@
+.button,
+.button * { 
+    cursor: pointer; 
+    overflow: visible; }
+
+.text.button {
+    box-shadow: 10px 15px 15px -5px black;
+    transition: box-shadow .25s ease-in-out, transform .25s ease-in-out, color .25s ease-in-out; }
+
+.text.button:hover,
+.text.button:focus { box-shadow: 15px 25px 35px 0px black;  }

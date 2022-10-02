@@ -1,0 +1,21 @@
+.toggle-button_wrapper {
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 4rem;
+    width: 8rem;
+    border-radius: 3rem;
+    background: var( --light ); }
+
+.toggle-button_wrapper span {
+    cursor: pointer;
+    position: absolute;
+    height: 3rem;
+    width: 3rem;
+    border-radius: 3rem;
+    background-color: var( --dark );
+    transition: left .1s ease-out; }
+
+.toggle-button_wrapper.off span { left: .25rem; }
+.toggle-button_wrapper.on span { left: 4.5rem; }

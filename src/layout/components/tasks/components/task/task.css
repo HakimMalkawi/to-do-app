@@ -1,0 +1,66 @@
+.task_wrapper {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+    width: 100%;
+    padding: 2rem 3rem;
+    border-radius: 3rem;
+    background-color: var( --teal ); }
+
+.task_wrapper.complete * { text-decoration: line-through; }
+
+.task_wrapper > h1,
+.task_wrapper > h2 { text-align: center; }
+
+.task_wrapper > h1 { font-size: 3rem; }
+.task_wrapper > h2 { font-size: 2rem; }
+
+.task_wrapper > p {
+    height: 8rem;
+    padding: .5rem 1rem;
+    border: 2px solid var( --secondary );
+    border-radius: 1rem;
+    font-size: 1.5rem; 
+    word-wrap: break-word; }
+
+.task_wrapper > div {
+    display: flex;
+    column-gap: 2.25rem; 
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 2rem;
+    border-radius: 1rem; 
+    background-color: var( --dark ); }
+
+.task_wrapper svg { transition: transform .15s ease-in-out, fill .15s ease-in-out; }
+
+.task_wrapper > div svg {
+    height: 2rem;
+    fill: var( --light ); }
+
+.task_wrapper svg:hover,
+.task_wrapper svg:focus { transform: scale( 1.1 ); }
+
+.toggle-priority-button_wrapper svg:hover,
+.toggle-priority-button_wrapper svg:focus { fill: var( --purple ); }
+
+.toggle-priority-button_wrapper.priority svg { fill: var( --purple ); }
+
+.edit-task-button_wrapper svg:hover,
+.edit-task-button_wrapper svg:focus { fill: var( --yellow ); }
+
+.delete-task-button_wrapper svg:hover,
+.delete-task-button_wrapper svg:focus { fill: var( --ruby ); }
+
+.add-subtask-button_wrapper svg:hover, 
+.add-subtask-button_wrapper svg:focus { fill: var( --teal ); }
+
+.complete-task-button_wrapper {
+    position: absolute;
+    right: 0;
+    padding: 0 !important;
+    background: none !important; }
+
+.complete-task-button_wrapper svg { width: 5rem !important; }
+.complete .complete-task-button_wrapper svg { fill: var( --dark ) }

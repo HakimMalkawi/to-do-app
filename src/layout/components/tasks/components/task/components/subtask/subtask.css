@@ -1,0 +1,11 @@
+.subtask_wrapper > div {
+    display: flex;
+    column-gap: 1rem; }
+
+.subtask_wrapper > div svg { height: 2rem; }
+
+.edit-subtask-button svg:hover,
+.edit-subtask-button svg:focus { fill: var( --yellow ); }
+
+.remove-subtask-button svg:hover,
+.remove-subtask-button svg:focus { fill: var( --ruby ); }
