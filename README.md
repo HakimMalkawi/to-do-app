@@ -14,7 +14,7 @@ https://HakimMalkawi.github.io/to-do
 Clone the project
 
 ```bash
-  git clone https://github.com/HakimMalkawi/to-do
+  git clone https://github.com/HakimMalkawi/to-do-app
 ```
 
 Go to the project directory
