@@ -6,7 +6,7 @@ This is a simple listing app that allows you to log down you current tasks and s
 The goal is to help you keep track of basic mundane tasks that dont require any elaborate planning.
 ## Live Demo
 
-https://HakimMalkawi.github.io/to-do
+https://HakimMalkawi.github.io/to-do-app
 
 
 ## Run Locally
@@ -20,7 +20,7 @@ Clone the project
 Go to the project directory
 
 ```bash
-  cd to-do
+  cd to-do-app
 ```
 
 Install dependencies
